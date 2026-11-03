@@ -222,9 +222,9 @@ The Power BI report contains three analytical pages designed around different bu
 - Which territories generate higher gross profit?
 - What does the current profit margin indicate?
 
-### Page 2: Product Performance
+### 2. Product Performance
 
-![Product Performance](./Screenshots/Product_Performance.png)
+![Product Performance](./Screenshots/Product%20Performance.png)
 
 **Business Objective:** Evaluate product-level performance and category contribution.
 
@@ -250,9 +250,9 @@ The Power BI report contains three analytical pages designed around different bu
 - Which categories contribute most to revenue?
 - Which products should be investigated for profitability?
 
-### Page 3: Sales Trends & Employee Performance
+### 3. Sales Trends & Employee Performance
 
-![Employee Performance](./Screenshots/Employee_Performance.png)
+![Sales Trends & Employee Performance](./Screenshots/Sales%20Trends%20%26%20Employee%20Performance.png)
 
 **Business Objective:** Analyse reseller sales trends and employee contribution.
 
