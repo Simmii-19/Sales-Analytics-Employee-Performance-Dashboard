@@ -438,6 +438,42 @@ The project demonstrates an end-to-end analytical workflow using a sample data w
 - Expand time-based comparisons and performance analysis.
 - Document data preparation steps where applicable.
 
+
+## Project Documentation & Professional Standards
+
+This project follows a structured analytical approach, covering business understanding, data preparation, SQL analysis, KPI development, dashboard creation, and business recommendations.
+
+| Section | What It Demonstrates |
+|---|---|
+| Executive Summary | Business understanding and project overview |
+| Business Problem | Ability to identify and define business challenges |
+| Analytical Approach | Structured and logical problem-solving process |
+| SQL Analysis | Practical SQL skills, including joins, CTEs, window functions, and aggregations |
+| Data Quality & Validation | Data accuracy, consistency, and analytical reliability |
+| KPI Framework | Understanding of business metrics and performance measurement |
+| Dashboard & Insights | Data visualization and business storytelling |
+| Business Recommendations | Translating analytical findings into actionable recommendations |
+| Limitations & Assumptions | Professional transparency and awareness of data constraints |
+| Future Enhancements | Continuous improvement and analytical development |
+
+## License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute the original project code and documentation in accordance with the license terms.
+
+See the [LICENSE](./LICENSE) file for complete details.
+
+## Project Disclaimer
+
+This project is developed for educational and portfolio purposes using the AdventureWorksDW sample dataset.
+
+The SQL queries, analytical methodology, KPI definitions, and Power BI dashboards demonstrate practical data analytics and business intelligence capabilities.
+
+All findings and recommendations are based on the available sample data and should be interpreted within its context and limitations.
+
+The project is not affiliated with or endorsed by Microsoft or any organization represented in the sample dataset.
+
 ## 17. Author
 
 **Simran Vishwakarma**
