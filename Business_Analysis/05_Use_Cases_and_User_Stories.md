@@ -18,6 +18,65 @@ It includes user stories and use cases that translate business requirements into
 The stakeholder roles and scenarios are simulated for this portfolio project.
 
 ## 2. User Stories
+## Use Case Diagram
+
+The following use case diagram illustrates how business users interact with the Sales Analytics Dashboard to monitor and analyze business performance.
+
+### Actors
+- **Sales Manager:** Reviews sales, product, and regional performance.
+- **Senior Manager:** Monitors overall business performance and profitability.
+- **Business Analyst:** Analyzes data, validates KPIs, and prepares business insights.
+
+### Use Case Diagram
+
+```mermaid id="9kq2wf"
+flowchart LR
+    SM[Sales Manager]
+    SGM[Senior Manager]
+    BA[Business Analyst]
+
+    subgraph Dashboard[Sales Analytics Dashboard]
+        UC1([View Sales KPIs])
+        UC2([Analyze Product Performance])
+        UC3([Analyze Regional Sales])
+        UC4([Review Employee Performance])
+        UC5([Apply Filters])
+        UC6([Review Business Insights])
+        UC7([Validate KPI Calculations])
+        UC8([Prepare Recommendations])
+    end
+
+    SM --> UC1
+    SM --> UC2
+    SM --> UC3
+    SM --> UC4
+    SM --> UC5
+
+    SGM --> UC1
+    SGM --> UC6
+    SGM --> UC8
+
+    BA --> UC5
+    BA --> UC7
+    BA --> UC8
+```
+
+### Use Case Explanation
+
+| Actor | Interaction | Business Purpose |
+|---|---|---|
+| Sales Manager | View Sales KPIs | Monitor sales performance |
+| Sales Manager | Analyze Products | Identify top and low performers |
+| Sales Manager | Analyze Regions | Compare regional sales |
+| Senior Manager | Review Insights | Understand overall performance |
+| Business Analyst | Validate KPIs | Ensure calculation accuracy |
+| Business Analyst | Prepare Recommendations | Support business decisions |
+
+### Expected Outcome
+
+The use case diagram provides a clear understanding of user roles, dashboard interactions, and the business value of each feature.
+
+**Portfolio Note:** These actors and interactions are proposed for this simulated portfolio project. They do not represent confirmed users or formally gathered stakeholder requirements.
 
 ### US-01: View Overall Sales Performance
 
