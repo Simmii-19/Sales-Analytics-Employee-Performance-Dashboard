@@ -1,34 +1,5 @@
 # Functional Requirements Document (FRD)
-## Functional System Flowchart
 
-This flowchart illustrates how a business user interacts with the Sales Analytics Dashboard, applies filters, views KPIs, and analyzes business performance.
-
-```mermaid
-flowchart TD
-    A([User Opens Dashboard]) --> B[Load Sales Data]
-    B --> C[Display Dashboard]
-    C --> D[Select Date or Region Filter]
-    D --> E[Update Dashboard Visuals]
-    E --> F[View Revenue and Order KPIs]
-    F --> G[Analyze Product Performance]
-    G --> H[Analyze Regional Performance]
-    H --> I[Review Employee Performance]
-    I --> J[Identify Business Insights]
-    J --> K([Support Business Decisions])
-```
-
-### Functional Flow Explanation
-
-1. **Dashboard Access:** User opens the Power BI dashboard.
-2. **Data Loading:** Dashboard displays the available sales data.
-3. **Filter Selection:** User selects date, region, or other available slicers.
-4. **Visual Updates:** Dashboard visuals respond to supported filters.
-5. **KPI Monitoring:** User reviews revenue, orders, and other KPIs.
-6. **Performance Analysis:** User explores product, regional, and employee performance.
-7. **Business Insights:** User identifies trends and performance gaps.
-8. **Decision Support:** User uses the information to support business decisions.
-
-**Note:** This is a proposed functional workflow for the portfolio project, not a record of a formal user acceptance test.
 ## Sales Analytics & Employee Performance Dashboard
 
 **Document Type:** Functional Requirements Document  
@@ -72,6 +43,36 @@ Users will be able to explore historical sales data, review KPIs, apply filters,
 These roles are simulated for the portfolio project.
 
 ## 4. Functional Requirements
+## Functional System Flowchart
+
+This flowchart illustrates how a business user interacts with the Sales Analytics Dashboard, applies filters, views KPIs, and analyzes business performance.
+
+```mermaid
+flowchart TD
+    A([User Opens Dashboard]) --> B[Load Sales Data]
+    B --> C[Display Dashboard]
+    C --> D[Select Date or Region Filter]
+    D --> E[Update Dashboard Visuals]
+    E --> F[View Revenue and Order KPIs]
+    F --> G[Analyze Product Performance]
+    G --> H[Analyze Regional Performance]
+    H --> I[Review Employee Performance]
+    I --> J[Identify Business Insights]
+    J --> K([Support Business Decisions])
+```
+
+### Functional Flow Explanation
+
+1. **Dashboard Access:** User opens the Power BI dashboard.
+2. **Data Loading:** Dashboard displays the available sales data.
+3. **Filter Selection:** User selects date, region, or other available slicers.
+4. **Visual Updates:** Dashboard visuals respond to supported filters.
+5. **KPI Monitoring:** User reviews revenue, orders, and other KPIs.
+6. **Performance Analysis:** User explores product, regional, and employee performance.
+7. **Business Insights:** User identifies trends and performance gaps.
+8. **Decision Support:** User uses the information to support business decisions.
+
+**Note:** This is a proposed functional workflow for the portfolio project, not a record of a formal user acceptance test.
 
 ### FR-01: Executive KPI Display
 
