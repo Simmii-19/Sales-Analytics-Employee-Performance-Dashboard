@@ -25,6 +25,64 @@ This document focuses on the Sales Analytics & Employee Performance Dashboard.
 | Average Order Value | Revenue divided by distinct orders | Measure average order value |
 | Revenue Growth % | Percentage change in revenue over time | Monitor sales growth |
 
+## KPI Relationship Diagram
+
+The following diagram illustrates how key performance indicators support different areas of business analysis and decision-making.
+
+```mermaid id="kpi91a"
+flowchart TD
+    A[Sales Performance Analysis]
+
+    A --> B[Revenue Performance]
+    A --> C[Order Performance]
+    A --> D[Profitability]
+    A --> E[Product Performance]
+    A --> F[Employee Performance]
+    A --> G[Regional Performance]
+
+    B --> H[Total Revenue]
+    B --> I[Revenue Growth %]
+
+    C --> J[Total Orders]
+    C --> K[Average Order Value]
+
+    D --> L[Gross Profit]
+
+    E --> M[Units Sold]
+    E --> N[Product-wise Revenue]
+
+    F --> O[Employee-wise Reseller Revenue]
+
+    G --> P[Region-wise Revenue]
+
+    H --> Q[Business Insights]
+    I --> Q
+    J --> Q
+    K --> Q
+    L --> Q
+    M --> Q
+    N --> Q
+    O --> Q
+    P --> Q
+
+    Q --> R[Business Recommendations]
+    R --> S[Data-Driven Decisions]
+```
+
+### Diagram Explanation
+
+1. **Revenue Performance:** Measures total revenue and revenue growth.
+2. **Order Performance:** Measures order volume and average order value.
+3. **Profitability:** Helps evaluate gross profit.
+4. **Product Performance:** Identifies product revenue and units sold.
+5. **Employee Performance:** Evaluates employee-wise reseller revenue.
+6. **Regional Performance:** Compares revenue across regions.
+7. **Business Insights:** Combines KPI findings to identify trends and gaps.
+8. **Business Recommendations:** Converts findings into possible business actions.
+
+### Business Value
+
+This KPI relationship helps management understand how individual performance metrics contribute to overall business performance and supports evidence-based decisions.
 ## 4. KPI Analysis
 
 ### Revenue Analysis
