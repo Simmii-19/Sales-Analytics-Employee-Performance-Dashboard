@@ -1,5 +1,32 @@
 # Project Overview
+## Project Workflow Diagram
 
+The following workflow illustrates how raw sales data is transformed into meaningful business insights using SQL Server and Power BI.
+
+```mermaid
+flowchart TD
+    A([Business Problem]) --> B[Identify Business Requirements]
+    B --> C[Collect AdventureWorks Data]
+    C --> D[Explore and Validate Data]
+    D --> E[Analyze Data Using SQL Server]
+    E --> F[Create KPIs and DAX Measures]
+    F --> G[Develop Power BI Dashboard]
+    G --> H[Analyze Sales and Product Performance]
+    H --> I[Generate Business Insights]
+    I --> J([Business Recommendations])
+```
+
+### Workflow Explanation
+
+1. **Business Problem:** Identify the need to understand sales and employee performance.
+2. **Business Requirements:** Define the business questions and KPIs.
+3. **Data Collection:** Use the AdventureWorks dataset.
+4. **Data Validation:** Check data quality and consistency.
+5. **SQL Analysis:** Analyze sales, products, regions, and employees.
+6. **KPI Development:** Create business measures using DAX.
+7. **Dashboard Development:** Build interactive Power BI reports.
+8. **Business Analysis:** Identify performance trends and gaps.
+9. **Recommendations:** Present actionable insights for business decisions.
 ## 1. Project Title
 Sales Analytics & Employee Performance Dashboard
 
